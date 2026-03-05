@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Giuliana Di Masi</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero_container">
+        <h1>Giuliana Di Masi</h1>
+        <p>Information System Engineer Student</p>
+        <div class="img_container">
+            <img src="css/img/me.JPG" alt="Giuliana Di Masi">
+        </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+         <h2>Skills</h2>
+         <div class="skills_list">
+            <span>Python</span>
+            <span>PyTorch</span>
+            <span>LangChain</span>
+            <span>FastAPI</span>
+            <span>Windows Forms</span>
+            <span>C#</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="cards_container">
+            <article class="project_card">
+                    <h3>RAG Document Assistant</h3>
+                    <p>Upload a PDF and ask the AI</p>
+                    <a href="https://rag-pdf-assistant-xeic.onrender.com" target="_blank">
+                        <button>OPEN</button>
+                    </a>
+            </article>
+            <article class="project_card">
+                    <h3>LLM Sentiments Analyzer</h3>
+                    <p>Share your emotional state today..</p>
+                    <a href="https://llm-sentiment-analyzer.onrender.com" target="_blank">
+                    <button onclick="openProject('llm')">OPEN</button></a>
+            </article>
+            <article class="project_card">
+                    <h3>Another project</h3>
+                    <p>Share your favorite music with friends!</p>
+                    <button onclick="openProject('spoti')">OPEN</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+            <div class="education">
+            <h2>Education</h2>
+            <p>4th-year Information Systems Engineering student at UAI.</p>
+            </div>
+        </section>
+
+    <footer id="contact">
+        <h3>Contact</h3>
+        <p>giulianadimasi17@gmail.com</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
