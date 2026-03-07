@@ -172,7 +172,14 @@ h2{
     0 15px 30px rgba(0, 0, 0, 0.06);
     transition: transform 0.3s ease; box-shadow: 0.3s ease;
     color: #6B615C;
+
+    display: flex;
+    flex-direction: column;
     
+}
+
+.project_card a{
+    margin-top: auto;
 }
 
 .project_card:hover{
